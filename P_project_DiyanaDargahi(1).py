@@ -1,4 +1,4 @@
-
+#p_project_DiyanaDargahi
 import mysql.connector                  # اتصال پایتون به دیتابیس
 import os                               # ارتباط با سیستم عامل و کار با فایل و پوشه ها
 from mysql.connector import Error       # دریافت خطاهای مربوط به اتصال و دستورات دیتابیس
@@ -85,7 +85,7 @@ class Database:
 db_info = {                             # ذخیره اطلاعات اتصال به دیتابیس در دیکشنری
     'host': 'localhost',                # آدرس سرور
     'user': 'root',                     # نام کاربری
-    'password': 'YOUR_PASSWORD'         # رمز عبور دیتابیس
+    'password': 'diyana13899160m'         # رمز عبور دیتابیس
 }
 
 db = Database(**db_info)                # ارسال اطلاعات دیکشنری به پارامترهای کلاس
